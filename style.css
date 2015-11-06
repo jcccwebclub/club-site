@@ -1,0 +1,24 @@
+body {
+	font-family:sans;
+	color:;
+	background-color:;
+	}
+div {
+
+}
+nav ul li {
+	display:inline;
+	margin-right:1em;
+	}
+nav ul li:last-of-type {
+	margin-right:inherit;
+	}
+
+nav ul {
+	margin:0;
+	padding:0;
+	}
+div.banner {
+	width:100%;
+	border:1px solid #000000;
+	}
