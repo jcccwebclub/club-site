@@ -1,6 +1,6 @@
 body {
 	font-family:sans;
-	color:#11ee22;
+	color:#0f0;
 	background-color:#000;
 	}
 div {
@@ -8,11 +8,16 @@ div {
 }
 h1 {
 	text-align:center;
+	padding-top: 20px;
+	font-size: 4em;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
 	}
 nav ul li {
-	display:inline;
+	font-family: 'Orbitron', sans-serif;
+	display: inline-block;
 	margin-right:1em;
-	background-color:#11ee22;
+	background-color:#0f0;
 	border:#335588 2px solid;
 	border-radius:.25em;
 	padding:.25em;
@@ -22,10 +27,15 @@ nav ul li:last-of-type {
 	}
 
 nav ul {
+	text-align: center;
 	margin-left:0;
 	padding:0;
 	}
 div.banner {
 	width:100%;
 	border:1px solid #ffffff;
+	}
+	
+ul li {
+		list-style: none;
 	}
