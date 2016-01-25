@@ -8,6 +8,20 @@
         <link rel="icon" type="image/png" href="favicon.png" />
         <script>
         </script>
+        <style>
+        	.la {
+        		display:inline-block;
+        		text-align:right;
+        	width:25%;
+        	}
+        	.in {
+        		display:inline-block;
+        	width:75%;
+        	}
+        	input {
+        		width:95%;
+        	}
+        </style>
     </head>
     
     <body>
@@ -25,7 +39,13 @@
         	</ul>
         </nav>
         <div class="banner">
-        	Stuff.
+        	<form action="sendmail.php">
+        	<div><div class="la">Email</div><div class="in"><input type="email" name="email"></div></div>
+        	<div><div class="la">Name</div><div class="in"><input type="text" name="name"></div></div>
+        	<div><div class="la">Phone</div><div class="in"><input type="text" name="phone"></div></div>
+        	<div><div class="la">Message</div><div class="in"><textarea style="display:block;width:95%;height:100%;" name="message"></textarea></div></div>
+        	<div><input type="button" value="Contact Us!"></div>
+        	</form>
         <div>
 		
 		<p>Follow Us</p>
